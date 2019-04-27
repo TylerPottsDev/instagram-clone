@@ -1,0 +1,59 @@
+.post {
+  .post-btns {
+    position: absolute;
+    left: 50%;
+    bottom: 65px;
+    transform: translateX(-50%);
+
+    button {
+      appearance: none;
+      border: none;
+      outline: none;
+      background: none;
+      margin: 0;
+      padding: 0;
+      margin-right: 50px;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .field-group {
+    padding: 15px;
+    box-sizing: border-box;
+    
+    label {
+      color: #888;  
+      font-size: 14px;
+    }
+
+    .input-field {
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+      height: 40px;
+      text-indent: 15px;
+      outline: none;
+      border: 1px solid #CCC;
+    }
+  }
+}
+
+.icn-lg {
+  font-size: 48px;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,42 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  width: 100vw;
+  height: 40px;
+  background-color: #EEE;
+  border-bottom: 1px solid #CCC;
+
+  .title {
+    margin: 0;
+    padding: 0;
+    color: #171717;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 900;
+
+    grid-column: 2/3;
+
+    span {
+      font-weight: 300;
+    }
+  }
+
+  .logout-btn {
+    background: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    margin: 0 15px 0 0;
+    padding: 0;
+    justify-self: end;
+
+    grid-column: 3/4;
+  }
+}

@@ -1,0 +1,22 @@
+.footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+
+  height: 40px;
+
+  background-color: #EEE;
+  border-top: 1px solid #CCC;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+  }
+}
